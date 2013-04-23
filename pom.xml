@@ -33,9 +33,13 @@
 			<id>devkiela</id>
 			<name>Daniel Barth</name>
 		</developer>
-                <developer>
+        <developer>
 			<id>leandro-freitas-softdevelop</id>
 			<name>Leandro Kersting de Freitas</name>
+		</developer>
+		<developer>
+			<id>andytompkins</id>
+			<name>Andy Tompkins</name>
 		</developer>
 	</developers>
 
@@ -84,6 +88,11 @@
 		<dependency>
 			<groupId>org.codehaus.cargo</groupId>
 			<artifactId>cargo-core-container-weblogic</artifactId>
+			<version>${cargo.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.cargo</groupId>
+			<artifactId>cargo-core-container-jetty</artifactId>
 			<version>${cargo.version}</version>
 		</dependency>
 
